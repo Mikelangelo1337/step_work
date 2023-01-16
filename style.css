@@ -1,0 +1,31 @@
+@keyframes shadow{
+    from {
+        transform: translateX(360px);
+    }
+   
+
+to {
+    transform: translateX(1060px);}
+    
+}
+@keyframes hover{
+    from{
+        transform: translateY(600px);
+    }
+    10%{
+        transform: rotateY(200px);
+    }
+    20%{
+        transform: rotateY(400px);
+    }
+to {transform: rotateY(800px);}
+}
+button{
+    width: 200px;
+    height: 50px;
+
+}
+button:hover{
+animation: hover 1s infinite;
+}
+
